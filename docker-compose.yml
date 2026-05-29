@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  app:
+    image: eshwarvenkat/project3-dev:latest
+    container_name: project3-web
+    ports:
+      - "80:80"
+    restart: always
