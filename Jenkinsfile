@@ -4,8 +4,8 @@ pipeline {
     environment {
         // ── Change these to your Docker Hub username ──
         DOCKERHUB_USER  = 'eshwarvenkat'
-        DEV_IMAGE       = "${DOCKERHUB_USER}/dev:latest"
-        PROD_IMAGE      = "${DOCKERHUB_USER}/prod:latest"
+        DEV_IMAGE       = "${DOCKERHUB_USER}/project3-dev:latest"
+        PROD_IMAGE      = "${DOCKERHUB_USER}/project3-prod:latest"
 
         // ── SSH credential IDs (add these in Jenkins > Credentials) ──
         DEV_SSH_CRED    = 'dev-ec2-ssh'
