@@ -26,10 +26,10 @@ echo "Pulling latest image..."
 docker pull "$IMAGE_NAME"
 
 echo "Stopping existing container (if any)..."
-docker compose down || true
+docker-compose down || true
 
 echo "Starting new container..."
-docker compose up -d
+docker-compose up -d
 
 echo "Running containers:"
 docker ps
