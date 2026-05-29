@@ -12,8 +12,8 @@ pipeline {
         PROD_SSH_CRED   = 'prod-ec2-ssh'
 
         // ── EC2 IPs (or hostnames) ──
-        DEV_EC2_IP      = '3.111.38.98'    // replace with your dev EC2 IP
-        PROD_EC2_IP     = '13.201.230.204'    // replace with your prod EC2 IP
+        DEV_EC2_IP      = '172.31.12.147'    // replace with your dev EC2 IP
+        PROD_EC2_IP     = '172.31.15.1'    // replace with your prod EC2 IP
     }
 
     stages {
