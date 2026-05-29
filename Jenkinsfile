@@ -70,7 +70,7 @@ pipeline {
         // ── 4. Build & push to prod Docker Hub repo ───────
         stage('Build & Push — Prod') {
             when {
-                branch 'master'
+                branch 'main'
             }
             steps {
                 withCredentials([usernamePassword(
